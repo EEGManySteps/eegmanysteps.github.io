@@ -18,6 +18,9 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Julius Welzel (Kiel University, Germany)
 - Anna Wunderlich (TU Berlin, Germany)
 - Sodiq Fakorede (Kansas Medical Center, USA)
+- Martin Geiger (Stuttgart University, Germany)
+- Joris van der Cruijsen (Radboud University, Netherlands)
+- Daniel Büchel (German Sports University Köln, Germany)
 
 ## (current) Advisory Board Members (with affiliation)
 - Fiorenzo Artoni (University of Geneva, Switzerland)
@@ -42,6 +45,10 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Catharina Zich (University College London, UK)
 - Natalie Richter (University of Winnipeg, USA)
 - Claudia Gianelli (Università di Messina, Italy)
+- Alan Evans (McGill University, Canada)
+- Christine Rogers (McGill University, Canada)
+- Pedro Antonio Valdes-Sosa (University of Electronic Science and Technology of China)
+- Pepe Contreras-vidal (University of Houston, USA)
 
 ## Role Definitions
 
