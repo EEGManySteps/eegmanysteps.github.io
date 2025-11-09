@@ -8,6 +8,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 ## (current) Steering Committee Members (with affiliation)
 - Melanie Klapprott (Oldenburg University, Germany)
 - Liyu Cao (Zhejiang University, China)
+- Hannes Devos (University of Kansas Medical Center)
 - Elena Cesnaite (Münster University, Germany)
 - Aitana Grasso Cladera (Osnabrück University, Germany)
 - Sein Jeung (TU Berlin, Germany)
