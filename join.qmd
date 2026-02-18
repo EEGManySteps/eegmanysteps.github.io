@@ -1,0 +1,36 @@
+---
+title: "Join EEGManySteps"
+---
+
+We invite you to collaborate on the **EEGManySteps** initiative, aimed at understanding how different setups in mobile electroencephalography (EEG) experiments influence the results. EEGManySteps is an international, inter-institute effort focused on collecting and analyzing EEG data across multiple laboratories to investigate these influences, starting with a specific focus on gait-related features.
+
+We are currently forming the decision-making structure of the initiative, which may change through further open discussions.
+
+## How to Participate
+
+Please let us know via email ([eegmanysteps@gmail.com](mailto:eegmanysteps@gmail.com)) if you would like to assume one of the following roles:
+
+1. **Steering Committee Member**
+2. **Advisory Board Member**
+3. **Data Set Contributor**
+4. **Analyst**
+
+Each role is described below. Please note that the roles of Steering Committee Member and Advisory Board Member cannot be chosen simultaneously. The final decision on your commitment can follow after some period when the responsibilities are better defined with mutual agreement.
+
+## Role Definitions
+
+**Steering Committee Members**
+Expected to attend monthly meetings and take on specific tasks within the project.
+*Minimal requirement: Authorship in one or more peer-reviewed MoBI paper or extensive experience in similar open science projects. Minimum active period at least 1 year.*
+
+**Advisory Board Members**
+Provide background support and feedback during quarterly/biannual meetings to guide the project's direction.
+*Minimal requirement: First or last author in a peer-reviewed MoBI/Biomechanics paper or extensive experience in similar open science projects. Minimum active period at least 1 year.*
+
+**Data Set Contributors**
+Provide access to EEG datasets recorded in mobile settings. Detailed requirements are still to be determined.
+*Minimal requirement: Responsible for the acquisition, curation, or formatting of mobile EEG data.*
+
+**Analysts**
+Participate in analyzing specific research questions related to mobile EEG data.
+*Minimal requirement: Experience with the analysis of biomechanical or MoBI data.*
