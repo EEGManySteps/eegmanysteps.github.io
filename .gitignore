@@ -1,5 +1,19 @@
-.quarto
+# Quarto
+.quarto/
 /_site/
 /quarto_cache/
 
-/.quarto/
+# Generated outputs
+news_files/
+*.ipynb
+
+# Dev tools
+CLAUDE.md
+.claude/
+.serena/
+
+# Planning files
+plan.md
+ideas.md
+scratch_notes.md
+research.md
