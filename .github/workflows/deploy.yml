@@ -35,14 +35,18 @@ jobs:
         with:
           script: |
             const marker = '<!-- cloudflare-pages-deploy -->';
+            const branch = context.payload.pull_request.head.ref;
+            const branchSlug = branch.replace(/[^a-z0-9]/gi, '-').toLowerCase();
+            const branchUrl = `https://${branchSlug}.eegmanysteps.pages.dev`;
             const body = [
               marker,
               `**Cloudflare Pages deployment**`,
               `| | |`,
               `|---|---|`,
               `| **Status** | Deployed |`,
-              `| **Preview URL** | ${process.env.DEPLOYMENT_URL} |`,
-              `| **Branch** | \`${context.payload.pull_request.head.ref}\` |`,
+              `| **Branch URL** | ${branchUrl} |`,
+              `| **Deployment URL** | ${process.env.DEPLOYMENT_URL} |`,
+              `| **Branch** | \`${branch}\` |`,
               `| **Commit** | \`${context.payload.pull_request.head.sha.slice(0, 7)}\` |`,
             ].join('\n');
 
