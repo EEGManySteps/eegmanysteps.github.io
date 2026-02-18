@@ -12,7 +12,7 @@ We are committed to fostering Open Science by ensuring our research materials, i
 
 **EEGManySteps** differs from traditional replication studies by emphasizing data collection across diverse settings rather than replicating specific findings. By leveraging both preexisting datasets and newly acquired data, we seek to understand how variations in experimental setups and (pre)processing pipelines, affect the consistency and reliability of EEG results. 
 
-The project name **"EEGManySteps"** is a reflection of the initiative's goal to explore the various steps involved in mobile EEG research. MoBI data analysis is a complex process that involves multiple stages, from data acquisition to final interpretation. By examining the impact of different choices at each step, **EEGManySteps** aims to identify influenceing factors for conducting reliable and reproducible EEG studies in mobile environments. 
+The project name **"EEGManySteps"** is a reflection of the initiative's goal to explore the various steps involved in mobile EEG research. MoBI data analysis is a complex process that involves multiple stages, from data acquisition to final interpretation. By examining the impact of different choices at each step, **EEGManySteps** aims to identify influencing factors for conducting reliable and reproducible EEG studies in mobile environments. 
 
 
 # Methodology
@@ -53,7 +53,7 @@ graph LR
     A[Advisory Board]
     S[Steering Committee]
 
-    B1[WP1: Aquisition procotols]
+    B1[WP1: Acquisition protocols]
     B2[WP2: Data collection]
     B3[WP3: Data curation]
     B4[WP4: Analysis]
