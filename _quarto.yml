@@ -21,6 +21,9 @@ website:
         text: Posters
       - href: join.qmd
         text: Join
+    right:
+      - icon: github
+        href: https://github.com/EEGManySteps/eegmanysteps.github.io
 
 format:
   html:

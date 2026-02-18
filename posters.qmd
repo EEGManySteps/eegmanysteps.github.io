@@ -2,20 +2,22 @@
 title: "Posters & Presentations"
 ---
 
-Conference posters and presentations from the EEGManySteps initiative. Full-resolution versions are available via the linked Google Drive folders.
+Conference posters and presentations from the EEGManySteps initiative. Click on a poster thumbnail to view the full-resolution PDF.
 
 ::: {.callout-note}
-Poster images will be added here as they become available. If you presented an EEGManySteps poster, please share the image and Drive link via a [pull request](https://github.com/EEGManySteps/eegmanysteps.github.io/pulls) or email [eegmanysteps@gmail.com](mailto:eegmanysteps@gmail.com).
+If you presented an EEGManySteps poster, please share it via a [pull request](https://github.com/EEGManySteps/eegmanysteps.github.io/pulls) or email [eegmanysteps@gmail.com](mailto:eegmanysteps@gmail.com).
 :::
 
-<!--
-To add a new poster, place a thumbnail image in files/posters/ and add an entry below:
+## Methods in Mobile EEG (MBT) 2025 -- Belgrade, April 2025
 
-## Conference Name (Month Year)
+[![EEGManySteps poster at MBT 2025](./files/posters/poster_mbt_2025_thumb.png){width=80%}](./files/posters/poster_mbt_2025.pdf)
 
-![Poster title](./files/posters/poster_filename.png){width=80%}
+Grasso-Cladera, A., Reiser, J.E., Klapprott, M., Jung, S., Welzel, J., Cao, L., Cesnaite, E., Fakorede, S., Ladouce, S., Protzak, J., Shirazi, Y., Wunderlich, A.
 
-[View full poster on Google Drive](https://drive.google.com/...)
+---
 
-Presented by: Author Name(s)
--->
+## Psychologie und Gehirn (PuG) 2025
+
+[![EEGManySteps poster at PuG 2025](./files/posters/poster_pug_2025_thumb.png){width=80%}](./files/posters/poster_pug_2025.pdf)
+
+Grasso-Cladera, A., Reiser, J.E., Klapprott, M., Jeung, S., Welzel, J., Cao, L., Cesnaite, E., Fakorede, S., Ladouce, S., Protzak, J., Shirazi, Y., Wunderlich, A.
