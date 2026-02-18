@@ -20,10 +20,10 @@ new Chart(document.getElementById('goalRatings'), {
   type: 'bar',
   data: {
     labels: [
-      '1. Step-specific\ntime-frequency',
-      '2. Gait artifact\ncharacterization',
-      '3. Preprocessing\ninfluence',
-      '4. Secondary task\ncorrelates'
+      ['1. Step-specific', 'time-frequency'],
+      ['2. Gait artifact', 'characterization'],
+      ['3. Preprocessing', 'influence'],
+      ['4. Secondary task', 'correlates']
     ],
     datasets: [{
       label: 'Average rating (1-5)',
