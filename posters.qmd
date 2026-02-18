@@ -12,7 +12,7 @@ If you presented an EEGManySteps poster, please share it via a [pull request](ht
 
 [![EEGManySteps poster at MBT 2025](./files/posters/poster_mbt_2025_thumb.png){width=80%}](./files/posters/poster_mbt_2025.pdf)
 
-Grasso-Cladera, A., Reiser, J.E., Klapprott, M., Jung, S., Welzel, J., Cao, L., Cesnaite, E., Fakorede, S., Ladouce, S., Protzak, J., Shirazi, Y., Wunderlich, A.
+Grasso-Cladera, A., Reiser, J.E., Klapprott, M., Jeung, S., Welzel, J., Cao, L., Cesnaite, E., Fakorede, S., Ladouce, S., Protzak, J., Shirazi, Y., Wunderlich, A.
 
 ---
 

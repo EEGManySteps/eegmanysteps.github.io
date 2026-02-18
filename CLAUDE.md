@@ -25,7 +25,7 @@ files/               # Static assets
 - No `freeze: auto` or `requirements.txt`. The site must build with `quarto render` alone, no Python runtime.
 - Always use `uv`/`uvx` for any Python scripting needs (not bare python3/pip).
 - File names: lowercase, underscores, no spaces. Dates as YYYY-MM.
-- All links to project files should use relative paths (e.g. `./files/slides_kickoff.pdf`), not absolute GitHub URLs.
+- All links to project files should use relative paths (e.g. `./files/slides/slides_kickoff.pdf`), not absolute GitHub URLs.
 - Links to the GitHub repo should point to `EEGManySteps/eegmanysteps.github.io` (the org repo).
 - Run `typos` before committing to catch spelling errors. CI enforces this via crate-ci/typos.
 - Run `quarto render` locally before pushing to verify the build.
