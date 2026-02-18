@@ -7,7 +7,7 @@ execute:
 ---
 
 ## Goals definition with AB
-We had the second meeting of SC and AB December 3rd, 2024. The meeting was used as an opportunity to discuss the goals and refine the scope of the project. Additionally, members of the SC and AB were invited to complete a survey on the project goals. A summary of the results can be found below, based on the raw data [here](https://github.com/JuliusWelzel/eegmanysteps/blob/main/files/EEGManySteps%20_%20AB%20meeting%20survey.tsv).
+We had the second meeting of SC and AB December 3rd, 2024. The meeting was used as an opportunity to discuss the goals and refine the scope of the project. Additionally, members of the SC and AB were invited to complete a survey on the project goals. A summary of the results can be found below, based on the raw data [here](./files/ab_meeting_survey_2024-12.tsv).
 The meeting slides can be found [here](https://github.com/JuliusWelzel/eegmanysteps/blob/main/files/slides_ab_meeting_12_24.pdf).
 
 
