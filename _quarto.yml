@@ -26,7 +26,7 @@ website:
         href: https://github.com/EEGManySteps/eegmanysteps.github.io
   page-footer:
     center: |
-      &copy; <script>document.write(new Date().getFullYear())</script> EEGManySteps Initiative. All rights reserved.
+      <script>document.write('\u00A9 ' + new Date().getFullYear() + ' EEGManySteps Project. All rights reserved.')</script>
 
 format:
   html:
