@@ -15,7 +15,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Simon Ladouce (KU Leuven, Belgium)
 - Janna Protzak (Emory University, USA)
 - Julian Reiser (IfADO, Germany)
-- Yahya Seyed Shirazi (SCCN, USA)
+- Seyed Yahya Shirazi (SCCN, USA)
 - Julius Welzel (Kiel University, Germany)
 - Anna Wunderlich (TU Berlin, Germany)
 - Sodiq Fakorede (Kansas Medical Center, USA)

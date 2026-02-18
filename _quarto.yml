@@ -6,6 +6,7 @@ project:
 
 website:
   title: "EEGManySteps"
+  site-url: https://eegmanysteps.org
   navbar:
     left:
       - href: index.qmd
@@ -16,8 +17,16 @@ website:
         text: Team
       - href: datasets.qmd
         text: Datasets
+      - href: posters.qmd
+        text: Posters
       - href: join.qmd
         text: Join
+    right:
+      - icon: github
+        href: https://github.com/EEGManySteps/eegmanysteps.github.io
+  page-footer:
+    center: |
+      <script>document.write('\u00A9 ' + new Date().getFullYear() + ' EEGManySteps Project. All rights reserved.')</script>
 
 format:
   html:
