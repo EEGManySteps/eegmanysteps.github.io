@@ -2,7 +2,7 @@
 title: "Available MoBI datasets"
 ---
 
-This is a table of available EEG datasets on [OpenNeuro](https://openneuro.org/search/modality/eeg?query=%7B%22modality_selected%22%3A%22EEG%22%7D) for the keywords specified in the table. If you find datasets missing, please feel free to add them via a PR on Github [here](https://github.com/JuliusWelzel/eegmanysteps/pulls).
+This is a table of available EEG datasets on [OpenNeuro](https://openneuro.org/search/modality/eeg?query=%7B%22modality_selected%22%3A%22EEG%22%7D) for the keywords specified in the table. If you find datasets missing, please feel free to add them via a PR on GitHub [here](https://github.com/EEGManySteps/eegmanysteps-website/pulls).
 
 | Dataset                                                       | Study                                                   | Tasks                                                        | Authors                                    | Keywords | Mobility Tasks | Sampling Frequency | Participants | EEG Channels | EMG Channels | IMU Tracked Points | IMU Sensor Placement            | MoCap Channels | MoCap Sensor Placement  | Misc Channel Count | Gait Events Shared|
 |---------------------------------------------------------------|---------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------|----------|----------------|--------------------|--------------|--------------|--------------|---------------------|--------------------------------|---------------|--------------------------|--------------------|-------------------|
