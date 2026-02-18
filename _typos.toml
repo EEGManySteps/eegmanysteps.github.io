@@ -1,0 +1,8 @@
+[files]
+extend-exclude = [
+    "_freeze/",
+    "_site/",
+    "news_files/",
+    "*.ipynb",
+    "*.tsv",
+]

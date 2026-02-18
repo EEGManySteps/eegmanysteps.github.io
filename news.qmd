@@ -7,8 +7,8 @@ execute:
 ---
 
 ## Goals definition with AB
-We had the second meeting of SC and AB December 3rd, 2024. TThe meeting used as an opporutniy to discuss the goals, and refine the scope of the project. Additionally members of SC and AB were invited to complete a sruvey on the project goals. A summary of the results can be found below, based on the raw data [here](https://github.com/JuliusWelzel/eegmanysteps/blob/main/files/EEGManySteps%20_%20AB%20meeting%20survey.tsv).
-The meeting slides can be found [here](https://github.com/JuliusWelzel/eegmanysteps/blob/main/files/slides_ab_meeting_12_24.pdf).
+We had the second meeting of SC and AB December 3rd, 2024. The meeting was used as an opportunity to discuss the goals and refine the scope of the project. Additionally, members of the SC and AB were invited to complete a survey on the project goals. A summary of the results can be found below, based on the raw data [here](./files/ab_meeting_survey_2024-12.tsv).
+The meeting slides can be found [here](./files/slides_ab_meeting_12_24.pdf).
 
 
 **Summary survey**: 
@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the data
-url = "https://github.com/JuliusWelzel/eegmanysteps/blob/main/files/EEGManySteps%20_%20AB%20meeting%20survey.tsv?raw=true"
+url = "./files/ab_meeting_survey_2024-12.tsv"
 data = pd.read_csv(url, sep='\t')
 # Select the first 4 patterns
 patterns = data.columns[:5]
@@ -43,7 +43,7 @@ print("\n",
     "Please provide a rough estimate how many datasets with \n a new protocol your lab could provide (N=?)",
     "\n"
     )
-# print estimate density distribution for potential pariticpants to be collected
+# print estimate density distribution for potential participants to be collected
 sns.set(style="whitegrid")
 plt.figure(figsize=(10, 6))
 
@@ -70,7 +70,7 @@ plt.xlim(0, 60)
 --- 
 
 ## Kick-off Meeting in September
-We had the first meeting of the **EEGManySteps** initiative on September 5th, 2024. The meeting was attended by 21 participants. The meeting was an opportunity to introduce the initiative, recap what happend since MoBI 2024, discuss the roles of the Steering Committee and Advisory Board, and plan the next steps. The meeting slides can be found [here](https://github.com/JuliusWelzel/eegmanysteps/blob/665fd64f92468f0cacaa504ed18159cd93f128b5/files/slides_kickoff.pdf) and the minutes [here](https://docs.google.com/document/d/1JZ6axf8kW_PU4JE-0fuq0510ktJEFYTDPT0pab_cO0M/edit?usp=sharing).
+We had the first meeting of the **EEGManySteps** initiative on September 5th, 2024. The meeting was attended by 21 participants. The meeting was an opportunity to introduce the initiative, recap what happened since MoBI 2024, discuss the roles of the Steering Committee and Advisory Board, and plan the next steps. The meeting slides can be found [here](./files/slides_kickoff.pdf) and the minutes [here](https://docs.google.com/document/d/1JZ6axf8kW_PU4JE-0fuq0510ktJEFYTDPT0pab_cO0M/edit?usp=sharing).
 
 **Next steps**: 
 
