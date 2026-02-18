@@ -6,6 +6,7 @@ project:
 
 website:
   title: "EEGManySteps"
+  site-url: https://eegmanysteps.org
   navbar:
     left:
       - href: index.qmd
