@@ -1,0 +1,21 @@
+---
+title: "Posters & Presentations"
+---
+
+Conference posters and presentations from the EEGManySteps initiative. Full-resolution versions are available via the linked Google Drive folders.
+
+::: {.callout-note}
+Poster images will be added here as they become available. If you presented an EEGManySteps poster, please share the image and Drive link via a [pull request](https://github.com/EEGManySteps/eegmanysteps.github.io/pulls) or email [eegmanysteps@gmail.com](mailto:eegmanysteps@gmail.com).
+:::
+
+<!--
+To add a new poster, place a thumbnail image in files/posters/ and add an entry below:
+
+## Conference Name (Month Year)
+
+![Poster title](./files/posters/poster_filename.png){width=80%}
+
+[View full poster on Google Drive](https://drive.google.com/...)
+
+Presented by: Author Name(s)
+-->

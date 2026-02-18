@@ -17,6 +17,8 @@ website:
         text: Team
       - href: datasets.qmd
         text: Datasets
+      - href: posters.qmd
+        text: Posters
       - href: join.qmd
         text: Join
 
