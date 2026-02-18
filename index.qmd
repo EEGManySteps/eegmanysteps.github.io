@@ -39,45 +39,47 @@ The EEGManySteps project is lead by a [steering committee](./team.qmd#steering-c
 - WP7. Research questions (Oversee the development of research questions within the project and support potential collaborations)
 
 ```{mermaid}
-graph LR
-    style A stroke-width:3px,corner-radius:5px
-    style S stroke-width:3px,corner-radius:5px
-    style B1 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
-    style B2 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
-    style B3 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
-    style B4 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
-    style B5 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
-    style B6 fill:#E8E8E8,stroke:#555,stroke-width:5px,corner-radius:5px
-    style B7 fill:#E8E8E8,stroke:#555,stroke-width:3px,corner-radius:5px
-
+graph TD
     A[Advisory Board]
     S[Steering Committee]
 
-    B1[WP1: Acquisition protocols]
-    B2[WP2: Data collection]
-    B3[WP3: Data curation]
-    B4[WP4: Analysis]
-    B5[WP5: Dissemination]
-    B6[WP6: Funding]
-    B7[WP7: Research questions]
+    A <--> S
 
-    subgraph B7[WP7: Research questions]
+    subgraph Work Packages
         direction LR
+        B1[WP1: Acquisition protocols]
+        B2[WP2: Data collection]
+        B3[WP3: Data curation]
+        B4[WP4: Analysis]
+        B5[WP5: Dissemination]
+        B6[WP6: Funding]
+        B7[WP7: Research questions]
+
         B1 --> B3
         B2 --> B3
         B3 --> B4
+        B4 --> B5
     end
 
-    A <--> S
     S <--> B1
     S <--> B2
     S <--> B4
-    A <--> B5
     S <--> B5
-    A <--> B6
     S <--> B6
+    S <--> B7
+    A <--> B5
+    A <--> B6
+    A <--> B7
 
-
+    style A fill:#fff,stroke:#333,stroke-width:3px
+    style S fill:#fff,stroke:#333,stroke-width:3px
+    style B1 fill:#E8E8E8,stroke:#555,stroke-width:2px
+    style B2 fill:#E8E8E8,stroke:#555,stroke-width:2px
+    style B3 fill:#E8E8E8,stroke:#555,stroke-width:2px
+    style B4 fill:#E8E8E8,stroke:#555,stroke-width:2px
+    style B5 fill:#E8E8E8,stroke:#555,stroke-width:2px
+    style B6 fill:#E8E8E8,stroke:#555,stroke-width:2px
+    style B7 fill:#E8E8E8,stroke:#555,stroke-width:2px
 ```
 
 

@@ -9,7 +9,6 @@ news_files/
 *.ipynb
 
 # Dev tools
-CLAUDE.md
 .claude/
 .serena/
 
@@ -18,3 +17,6 @@ plan.md
 ideas.md
 scratch_notes.md
 research.md
+
+/.quarto/
+**/*.quarto_ipynb

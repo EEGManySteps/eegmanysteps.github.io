@@ -1,78 +1,93 @@
 ---
-title: "EEGManySteps Initiative Collaboration Invitation"
-date: "08/12/2024"
-jupyter: python3
-execute:
-  echo: false
+title: "News"
 ---
 
 ## Goals definition with AB
+*December 2024*
+
 We had the second meeting of SC and AB December 3rd, 2024. The meeting was used as an opportunity to discuss the goals and refine the scope of the project. Additionally, members of the SC and AB were invited to complete a survey on the project goals. A summary of the results can be found below, based on the raw data [here](./files/ab_meeting_survey_2024-12.tsv).
 The meeting slides can be found [here](./files/slides_ab_meeting_12_24.pdf).
 
+**Survey summary** (26 respondents):
 
-**Summary survey**: 
+The survey asked participants to rate four proposed research goals on a scale of 1-5.
 
-```{python}
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
-
-# Load the data
-url = "./files/ab_meeting_survey_2024-12.tsv"
-data = pd.read_csv(url, sep='\t')
-# Select the first 4 patterns
-patterns = data.columns[:5]
-
-# Print a summary of the data
-print("\n".join([
-    "This survey was conducted during the AB meeting.",
-    "The participants rated the following patterns:",
-    f"{'\n '.join(data.columns[1:5])}.",
-    "",
-    "The following statistics were calculated:",
-    f"Number of participants: {len(data)}",
-    f"Average rating for each pattern:",
-    f"{'\n '.join([f'{goal.split(':')[0]}: \n Average rating {data[goal].mean():.2f}' for goal in data.columns[1:5]])}",
-    "",
-]))
-
-# print the question title
-print("\n",
-    "Please provide a rough estimate how many datasets with \n a new protocol your lab could provide (N=?)",
-    "\n"
-    )
-# print estimate density distribution for potential participants to be collected
-sns.set(style="whitegrid")
-plt.figure(figsize=(10, 6))
-
-# retrieve n 
-n_subj = data["Please provide a rough estimate how many datasets with a new protocol your lab could provide (N=?):"].fillna("")
-
-# extract digits from pd series and sum if multiple digits are identified
-def extract_digits(s):
-    digits = ''.join(filter(str.isdigit, str(s)))
-    if digits:
-        # Split the string by non-digit characters and take the last number
-        numbers = ''.join(c if c.isdigit() else ' ' for c in str(s)).split()
-        return int(numbers[-1]) if numbers else np.nan  
-    return np.nan
-
-n_subj.apply(extract_digits)
-
-# plot the distribution
-sns.histplot(n_subj.apply(extract_digits), bins=range(0, 100, 5), kde=True)
-plt.xlabel("Estimated number of participants")
-plt.xlim(0, 60)
+```{=html}
+<canvas id="goalRatings" style="max-width:700px; max-height:350px;"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script>
+new Chart(document.getElementById('goalRatings'), {
+  type: 'bar',
+  data: {
+    labels: [
+      ['1. Step-specific', 'time-frequency'],
+      ['2. Gait artifact', 'characterization'],
+      ['3. Preprocessing', 'influence'],
+      ['4. Secondary task', 'correlates']
+    ],
+    datasets: [{
+      label: 'Average rating (1-5)',
+      data: [4.27, 4.04, 4.42, 4.08],
+      backgroundColor: 'rgba(54, 162, 235, 0.7)',
+      borderColor: 'rgba(54, 162, 235, 1)',
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      y: { beginAtZero: true, max: 5, title: { display: true, text: 'Average rating' } },
+      x: { title: { display: true, text: 'Proposed research goals' } }
+    },
+    plugins: {
+      legend: { display: false },
+      title: { display: true, text: 'Goal ratings from AB meeting survey (N=26)' }
+    }
+  }
+});
+</script>
 ```
 
---- 
+Participants were also asked to estimate how many datasets their lab could provide with a new protocol:
 
-## Kick-off Meeting in September
+```{=html}
+<canvas id="participantEstimates" style="max-width:700px; max-height:350px;"></canvas>
+<script>
+new Chart(document.getElementById('participantEstimates'), {
+  type: 'bar',
+  data: {
+    labels: ['0-4','5-9','10-14','15-19','20-24','25-29','30-34','35-39','40-44','45-49','50-54','55-59'],
+    datasets: [{
+      label: 'Number of responses',
+      data: [8, 0, 1, 0, 3, 0, 2, 0, 3, 0, 1, 0],
+      backgroundColor: 'rgba(75, 192, 192, 0.7)',
+      borderColor: 'rgba(75, 192, 192, 1)',
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      y: { beginAtZero: true, title: { display: true, text: 'Number of responses' } },
+      x: { title: { display: true, text: 'Estimated number of participants per lab' } }
+    },
+    plugins: {
+      legend: { display: false },
+      title: { display: true, text: 'Estimated datasets per lab (N=18 responses)' }
+    }
+  }
+});
+</script>
+```
+
+---
+
+## Kick-off Meeting
+*September 2024*
+
 We had the first meeting of the **EEGManySteps** initiative on September 5th, 2024. The meeting was attended by 21 participants. The meeting was an opportunity to introduce the initiative, recap what happened since MoBI 2024, discuss the roles of the Steering Committee and Advisory Board, and plan the next steps. The meeting slides can be found [here](./files/slides_kickoff.pdf) and the minutes [here](https://docs.google.com/document/d/1JZ6axf8kW_PU4JE-0fuq0510ktJEFYTDPT0pab_cO0M/edit?usp=sharing).
 
-**Next steps**: 
+**Next steps**:
 
 - Ask for participation via mailing lists (EEGLab, fieldtrip, MNE)
 - Open goal proposals
@@ -85,47 +100,9 @@ We had the first meeting of the **EEGManySteps** initiative on September 5th, 20
 - Position paper (2024/2025)
 - Apply for funding (early 2025)
 
-
---- 
-
-## Start of the Initiative
-We invite you to collaborate on the **EEGManySteps** initiative, aimed at understanding how different setups in mobile electroencephalography (EEG) experiments influence the results. EEGManySteps is an international, inter-institute effort focused on collecting and analyzing EEG data across multiple laboratories to investigate these influences, starting with a specific focus on gait-related features. 
-
-We are currently forming the decision-making structure of the initiative, which may change through further open discussions.
-
-### How to Participate
-
-Please let us know via email ([eegmanysteps@gmail.com](mailto:eegmanysteps@gmail.com)) if you would like to assume one of the following roles:
-
-1. **Steering Committee Member**
-2. **Advisory Board Member**
-3. **Data Set Contributor**
-4. **Analyst**
-
-Each role is described below. Please note that the roles of Steering Committee Member and Advisory Board Member cannot be chosen simultaneously. The final decision on your commitment can follow after some period when the responsibilities are better defined with mutual agreement.
-
-### Tentative Role Definitions
-
-**Steering Committee Members**  
-Expected to attend monthly meetings and take on specific tasks within the project.
-*Minimal requirement: Authorship in one or more peer-reviewed MoBI paper or extensive experience in similar open science projects. Minimum active period at least 1 year.*
-
-**Advisory Board Members:**
-Provide background support and feedback during quarterly/biannual meetings to guide the project’s direction.
-*Minimal requirement: First or last author in a peer-reviewed MoBI/Biomechanics paper or extensive experience in similar open science projects. Minimum active period at least 1 year.*
-
-**Data Set Contributors**  
-Provide access to EEG datasets recorded in mobile settings. Detailed requirements are still to be determined.  
-*Minimal requirement: Responsible for the acquisition, curation, or formatting of mobile EEG data.*
-
-**Analysts**  
-Participate in analyzing specific research questions related to mobile EEG data.  
-*Minimal requirement: Experience with the analysis of biomechanical or MoBI data.*
-
-### Upcoming Event
-
-We also invite you to join the virtual **Kick-off Meeting** in September, with the exact date and time to be determined through a poll. Please email us to access the poll and receive the meeting link.
-
 ---
 
+## Start of the Initiative
+*August 2024*
 
+The **EEGManySteps** initiative was launched as a community-driven effort to understand how different setups in mobile electroencephalography (EEG) experiments influence results. See the [Join](./join.qmd) page for how to participate.

@@ -1,5 +1,7 @@
 project:
   type: website
+  render:
+    - "*.qmd"
 
 website:
   title: "EEGManySteps"
@@ -13,6 +15,8 @@ website:
         text: Team
       - href: datasets.qmd
         text: Datasets
+      - href: join.qmd
+        text: Join
 
 format:
   html:
@@ -21,6 +25,3 @@ format:
     toc: true
     grid:
       sidebar-width: 40px
-
-execute:
-  freeze: auto
