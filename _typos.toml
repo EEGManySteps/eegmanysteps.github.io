@@ -5,5 +5,4 @@ extend-exclude = [
     "news_files/",
     "*.ipynb",
     "*.tsv",
-    ".git/",
 ]

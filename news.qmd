@@ -43,7 +43,7 @@ print("\n",
     "Please provide a rough estimate how many datasets with \n a new protocol your lab could provide (N=?)",
     "\n"
     )
-# print estimate density distribution for potential pariticpants to be collected
+# print estimate density distribution for potential participants to be collected
 sns.set(style="whitegrid")
 plt.figure(figsize=(10, 6))
 

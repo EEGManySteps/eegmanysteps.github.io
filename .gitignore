@@ -4,6 +4,7 @@
 /quarto_cache/
 
 # Generated outputs
+_freeze/
 news_files/
 *.ipynb
 
