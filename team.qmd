@@ -8,7 +8,6 @@ The definition of roles and responsibilities can be found at the bottom of this 
 ## (current) Steering Committee Members (with affiliation)
 - Melanie Klapprott (Oldenburg University, Germany)
 - Liyu Cao (Zhejiang University, China)
-- Elena Cesnaite (Münster University, Germany)
 - Aitana Grasso Cladera (Osnabrück University, Germany)
 - Sein Jeung (TU Berlin, Germany)
 - Simon Ladouce (KU Leuven, Belgium)
@@ -22,6 +21,8 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Joris van der Cruijsen (Radboud University, Netherlands)
 - Daniel Büchel (German Sports University Köln, Germany)
 - Pema Sherpa (TU Berlin, Germany)
+- Aime Aguilar-Herrera (University of Houston, USA)
+- Denis Barbusse (Université Bourgogne, France)
 
 ## (current) Advisory Board Members (with affiliation)
 - Fiorenzo Artoni (University of Geneva, Switzerland)
@@ -76,4 +77,5 @@ Minimal requirement: Experience with the analysis of biomechanical or MoBI data.
 ## Past contributors 
 Nadine Jacobsen (SC, Oldenburg University, Germany)
 Yu-Fang Yang (SC, FU Berlin, Germany)
-Xinyu Chen (Zhejiang University, China)
+Xinyu Chen (SC, Zhejiang University, China)
+Elena Cesnaite (SC, Münster University, Germany)
