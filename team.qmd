@@ -8,7 +8,6 @@ The definition of roles and responsibilities can be found at the bottom of this 
 ## (current) Steering Committee Members (with affiliation)
 - Melanie Klapprott (Oldenburg University, Germany)
 - Liyu Cao (Zhejiang University, China)
-- Hannes Devos (University of Kansas Medical Center)
 - Elena Cesnaite (Münster University, Germany)
 - Aitana Grasso Cladera (Osnabrück University, Germany)
 - Sein Jeung (TU Berlin, Germany)
@@ -22,6 +21,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Martin Geiger (Stuttgart University, Germany)
 - Joris van der Cruijsen (Radboud University, Netherlands)
 - Daniel Büchel (German Sports University Köln, Germany)
+- Pema Sherpa (TU Berlin, Germany)
 
 ## (current) Advisory Board Members (with affiliation)
 - Fiorenzo Artoni (University of Geneva, Switzerland)
@@ -29,6 +29,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Stefan Debener (Oldenburg University, Germany)
 - Benedikt Ehinger (Stuttgart University, Germany)
 - Dan Ferris (University of Florida, USA)
+- Hannes Devos (University of Kansas Medical Center)
 - Klaus Gramann (TU Berlin, Germany)
 - Barbara Händel (Würzburg University, Germany)
 - Julia Kline (National Institutes of Health, USA)
