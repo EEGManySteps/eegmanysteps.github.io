@@ -20,6 +20,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Martin Geiger (Stuttgart University, Germany)
 - Joris van der Cruijsen (Radboud University, Netherlands)
 - Daniel Büchel (German Sports University Köln, Germany)
+- Zurna Ahmed (University of Goettingen, Germany)
 - Pema Sherpa (TU Berlin, Germany)
 - Aime Aguilar-Herrera (University of Houston, USA)
 - Denis Barbusse (Université Bourgogne, France)
