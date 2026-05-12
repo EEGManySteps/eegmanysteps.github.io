@@ -22,7 +22,6 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Zurna Ahmed (University of Goettingen, Germany)
 - Pema Sherpa (TU Berlin, Germany)
 - Aime Aguilar-Herrera (University of Houston, USA)
-- Denis Barbusse (Université Bourgogne, France)
 
 ## (current) Advisory Board Members (with affiliation)
 - Fiorenzo Artoni (University of Geneva, Switzerland)
