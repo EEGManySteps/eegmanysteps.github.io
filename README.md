@@ -18,3 +18,5 @@ To achieve this, we will standardize data acquisition and analysis protocols, al
 
 ## Responsible authors for the website
 - [Julius Welzel](mailto:julius.welzel@gmail.com?subject=EEGManySteps)
+- Sein Jeung
+- Seyed Yahya Shirazi
