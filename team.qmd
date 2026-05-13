@@ -10,7 +10,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Liyu Cao (Zhejiang University, China)
 - Aitana Grasso Cladera (Osnabrück University, Germany)
 - Sein Jeung (TU Berlin, Germany)
-- Simon Ladouce (KU Leuven, Belgium)
+- Simon Ladouce (University of Cambridge, UK)
 - Janna Protzak (Emory University, USA)
 - Seyed Yahya Shirazi (SCCN, USA)
 - Julius Welzel (Kiel University, Germany)
