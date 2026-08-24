@@ -32,7 +32,6 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Hannes Devos (University of Kansas Medical Center)
 - Klaus Gramann (TU Berlin, Germany)
 - Barbara Händel (Würzburg University, Germany)
-- Julia Kline (National Institutes of Health, USA)
 - John Iversen (SCCN, USA)
 - Agatha Lenartowicz (UCLA, USA)
 - Scott Makeig (SCCN, USA)
@@ -51,6 +50,8 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Christine Rogers (McGill University, Canada)
 - Pedro Antonio Valdes-Sosa (University of Electronic Science and Technology of China)
 - Pepe Contreras-vidal (University of Houston, USA)
+- Faisal Mushtaq (University of Leeds, UK)
+- Yuri Pavlov (University of Alabama at Birmingham)
 
 ## Role Definitions
 
@@ -63,7 +64,7 @@ Provide background support and feedback during quarterly/biannual meetings to gu
 *Minimal requirement: First or last author in a peer-reviewed MoBI/Biomechanics paper or extensive experience in similar open science projects. Minimum active period at least 1 year.*
 
 
-Some additional roles will become relevant later in the project:
+Additional roles:
 
 **[Data Set Contributors]**
 Provide access to EEG datasets recorded in mobile settings. Detailed requirements are still to be determined.
@@ -73,9 +74,11 @@ Minimal requirement: Responsible for the acquisition, curation, or formatting of
 Participate in analyzing specific research questions related to mobile EEG data.
 Minimal requirement: Experience with the analysis of biomechanical or MoBI data.
 
+
 ## Past contributors 
 Nadine Jacobsen (SC, Oldenburg University, Germany)
 Yu-Fang Yang (SC, FU Berlin, Germany)
 Xinyu Chen (SC, Zhejiang University, China)
 Elena Cesnaite (SC, Münster University, Germany)
 Julian Reiser (SC, IfADO, Germany)
+Julia Kline (National Institutes of Health, USA)
