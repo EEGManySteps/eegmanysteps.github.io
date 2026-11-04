@@ -66,11 +66,13 @@ Provide background support and feedback during quarterly/biannual meetings to gu
 
 Additional roles:
 
-**[Data Set Contributors]**
+**[Data Set Contributors]**    
+- Mona Sabour (Maastricht University, Netherlands)    
+- Agna Simon (Maastricht University, Netherlands)    
 Provide access to EEG datasets recorded in mobile settings. Detailed requirements are still to be determined.
 Minimal requirement: Responsible for the acquisition, curation, or formatting of mobile EEG data.
 
-**[Analysts]**
+**[Analysts]**    
 Participate in analyzing specific research questions related to mobile EEG data.
 Minimal requirement: Experience with the analysis of biomechanical or MoBI data.
 
