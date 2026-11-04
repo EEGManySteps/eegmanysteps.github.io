@@ -22,6 +22,7 @@ The definition of roles and responsibilities can be found at the bottom of this 
 - Zurna Ahmed (University of Goettingen, Germany)
 - Pema Sherpa (TU Berlin, Germany)
 - Aime Aguilar-Herrera (University of Houston, USA)
+- Vaishali Vinod (Kiel University, Germany)
 
 ## (current) Advisory Board Members (with affiliation)
 - Fiorenzo Artoni (University of Geneva, Switzerland)
