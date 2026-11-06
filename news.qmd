@@ -2,6 +2,12 @@
 title: "News"
 ---
 
+## EEGManySteps joins EEG101 as Working Group 4: Mobile EEG Harmonization    
+*October 2026*    
+
+We joined [EEG101](https://www.eeg101.eu/) as their fourth working group "Mobile EEG Harmonisation", with Sein Jeung as the lead and Aitana Grasso-Cladera/Julius Welzel as co-leads. By being embedded in a broader community working towards reproducible EEG, we expect to better align with ongoing efforts to standardize data formats, reporting conventions, and pre-registration practices. 
+
+
 ## Goals definition with AB
 *December 2024*
 
